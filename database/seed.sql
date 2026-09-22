@@ -17,7 +17,7 @@ INSERT INTO public.sellers (id, store_name, name, wa_number, photo_url, cover_ur
     's1111111-1111-1111-1111-111111111111',
     'Toko Sari Jaya',
     'Ibu Sari Rahayu',
-    '6281234567890',
+    '6281261151717',
     'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80',
     'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1000&auto=format&fit=crop&q=80',
     'Blok C No. 12',

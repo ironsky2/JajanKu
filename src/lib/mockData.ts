@@ -49,7 +49,7 @@ export const INITIAL_SELLERS: Seller[] = [
     id: "s1111111-1111-1111-1111-111111111111",
     store_name: "Toko Sari Jaya",
     name: "Ibu Sari Rahayu",
-    wa_number: "081234567890",
+    wa_number: "081261151717",
     photo_url: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80",
     cover_url: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1000&auto=format&fit=crop&q=80",
     address: "Blok C No. 12",

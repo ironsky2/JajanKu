@@ -58,9 +58,18 @@ export const useMarketStore = create<MarketState>((set, get) => ({
       const saved = localStorage.getItem(LOCAL_STORAGE_KEY);
       if (saved) {
         const parsed = JSON.parse(saved);
+        // Merge initial sellers so edits in mockData (e.g. WA number) reflect automatically
+        const mergedSellers = (parsed.sellers || INITIAL_SELLERS).map((s: any) => {
+          const init = INITIAL_SELLERS.find((item) => item.id === s.id);
+          if (init && (s.wa_number === "081234567890" || !s.wa_number)) {
+            return { ...s, wa_number: init.wa_number };
+          }
+          return s;
+        });
+
         set({
           categories: parsed.categories || INITIAL_CATEGORIES,
-          sellers: parsed.sellers || INITIAL_SELLERS,
+          sellers: mergedSellers,
           products: parsed.products || INITIAL_PRODUCTS,
           currentSession: parsed.currentSession || { role: "guest" },
           isInitialized: true,
