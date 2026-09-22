@@ -38,7 +38,7 @@ export default function AdminCategoriesPage() {
           Kelola Kategori Produk ({categories.length})
         </h1>
         <p className="text-[11px] text-slate-400">
-          Atur pengelompokan produk jajanan di perumahan
+          Atur pengelompokan produk jajanan dapur tetangga
         </p>
       </div>
 

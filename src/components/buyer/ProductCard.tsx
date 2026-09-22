@@ -27,9 +27,9 @@ export function ProductCard({ product, viewMode = "grid" }: ProductCardProps) {
   const isLowStock = product.stock > 0 && product.stock <= 5;
 
   const sellerName = product.seller?.name || "Penjual";
-  const sellerStore = product.seller?.store_name || "Toko Perumahan";
+  const sellerStore = product.seller?.store_name || "Dapur Tetangga";
   const sellerPhone = product.seller?.wa_number || "6281234567890";
-  const sellerAddress = product.seller?.address || "Perumahan";
+  const sellerAddress = product.seller?.address || "Blok Tetangga";
 
   const handleAddToCart = (e: React.MouseEvent) => {
     e.preventDefault();

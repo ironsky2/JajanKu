@@ -1,5 +1,5 @@
 -- ==========================================================
--- JajanKuy PWA - Seed Data (Perumahan Griya Indah Asri)
+-- JajanKuy PWA - Seed Data (Netral Warga / Dapur Tetangga)
 -- ==========================================================
 
 -- Insert Categories
@@ -11,7 +11,7 @@ INSERT INTO public.categories (id, name, slug, icon, description, display_order)
 ('c5555555-5555-5555-5555-555555555555', 'Lainnya', 'lainnya', '✨', 'Pernak-pernik kebutuhan rumah tangga dan tanaman hias', 5)
 ON CONFLICT (id) DO NOTHING;
 
--- Insert Sellers (Ibu-Ibu Perumahan)
+-- Insert Sellers (Ibu-Ibu Dapur Tetangga)
 INSERT INTO public.sellers (id, store_name, name, wa_number, photo_url, cover_url, address, description, is_active) VALUES
 (
     's1111111-1111-1111-1111-111111111111',

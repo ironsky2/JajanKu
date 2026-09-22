@@ -96,7 +96,7 @@ export default function SellerLoginPage() {
             onClick={handleAdminLogin}
             className="w-full text-left px-3 py-2 bg-white rounded-xl text-xs font-semibold text-slate-800 hover:bg-slate-100 border border-slate-200 transition-all flex items-center justify-between mt-0.5"
           >
-            <span>🛡️ Akun Admin RT (Pengelola)</span>
+            <span>🛡️ Akun Admin Pengelola</span>
             <span className="text-[10px] text-slate-600 font-bold">Masuk →</span>
           </button>
         </div>

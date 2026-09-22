@@ -92,7 +92,7 @@ export default function StoreFrontPage() {
         <div className="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm flex flex-col gap-3">
           <div className="flex items-center gap-1.5 text-xs text-slate-600 font-medium">
             <MapPin className="w-4 h-4 text-primary flex-shrink-0" />
-            <span>Alamat: <strong>{seller.address}</strong> (Perumahan Griya Indah Asri)</span>
+            <span>Lokasi: <strong>{seller.address}</strong></span>
           </div>
 
           {seller.description && (
@@ -103,7 +103,7 @@ export default function StoreFrontPage() {
 
           {/* WA Action Button */}
           <a
-            href={`https://wa.me/${seller.wa_number}?text=Halo%20${encodeURIComponent(seller.name)},%20saya%20tetangga%20di%20perumahan%20ingin%20tanya%20produk%20di%20${encodeURIComponent(seller.store_name)}.`}
+            href={`https://wa.me/${seller.wa_number}?text=Halo%20${encodeURIComponent(seller.name)},%20saya%20tetangga%20ingin%20tanya%20produk%20di%20${encodeURIComponent(seller.store_name)}.`}
             target="_blank"
             rel="noopener noreferrer"
             className="w-full h-11 rounded-xl bg-whatsapp text-white hover:bg-whatsapp-dark font-bold text-xs flex items-center justify-center gap-2 active:scale-98 transition-all shadow-md mt-1"

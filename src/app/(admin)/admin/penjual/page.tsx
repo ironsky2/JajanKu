@@ -64,7 +64,7 @@ export default function AdminSellersPage() {
             Kelola Penjual ({sellers.length})
           </h1>
           <p className="text-[11px] text-slate-400">
-            Daftar ibu-ibu pedagang warga komplek perumahan
+            Daftar ibu-ibu dapur tetangga & kreasi rumahan
           </p>
         </div>
 
@@ -234,9 +234,12 @@ export default function AdminSellersPage() {
               </div>
 
               <div>
-                <label className="block text-xs font-bold text-slate-300 mb-1">
-                  Alamat (Blok / No. Rumah) *
+                <label className="block text-xs font-bold text-slate-300 mb-0.5">
+                  Alamat (Hanya Blok / No. Rumah) *
                 </label>
+                <p className="text-[10px] text-emerald-400/90 mb-1">
+                  🔒 Cukup sebutkan blok (contoh: Blok C-12). Dilarang mencantumkan nama dinas/komplek.
+                </p>
                 <input
                   type="text"
                   required

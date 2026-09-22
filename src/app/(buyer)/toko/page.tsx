@@ -16,7 +16,7 @@ export default function StoresDirectoryPage() {
           Daftar Toko & Penjual
         </h1>
         <p className="text-xs text-slate-500 mt-0.5">
-          Jajan langsung dari ibu-ibu tetangga di Perumahan Griya Indah Asri.
+          Jajan langsung dari kreasi dapur & produk rumahan ibu-ibu tetangga.
         </p>
       </div>
 

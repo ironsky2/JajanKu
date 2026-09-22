@@ -223,7 +223,7 @@ export default function CheckoutPage() {
                   <span className="font-bold text-xs">Delivery</span>
                   {deliveryOption === "delivery" && <Check className="w-4 h-4 text-primary" />}
                 </div>
-                <span className="text-[11px] text-slate-500">Antar ke Rumah (Sesama Komplek)</span>
+                <span className="text-[11px] text-slate-500">Antar ke Rumah (Antar-Blok)</span>
               </button>
             </div>
           </div>

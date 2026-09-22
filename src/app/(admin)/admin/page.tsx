@@ -25,7 +25,7 @@ export default function AdminDashboardPage() {
               Admin JajanKuy
             </h1>
             <span className="text-[10px] text-slate-400 mt-1 block">
-              Pengurus RT 05 Perumahan Griya Indah Asri
+              Inisiator & Pengelola Dapur Tetangga
             </span>
           </div>
         </div>
@@ -98,7 +98,7 @@ export default function AdminDashboardPage() {
             <Users className="w-5 h-5" />
             <div className="text-left">
               <span className="block font-extrabold">Kelola & Daftarkan Penjual Baru</span>
-              <span className="text-[11px] text-emerald-100 font-normal">Buatkan akun toko untuk ibu warga komplek</span>
+              <span className="text-[11px] text-emerald-100 font-normal">Buatkan akun toko untuk ibu-ibu tetangga</span>
             </div>
           </div>
           <ArrowRight className="w-5 h-5" />

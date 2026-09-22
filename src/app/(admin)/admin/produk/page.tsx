@@ -68,7 +68,7 @@ export default function AdminProductsAssistPage() {
             Bantuan Input & Moderasi Produk
           </h1>
           <p className="text-[11px] text-slate-400">
-            Input menu dagangan atas nama ibu-ibu warga perumahan
+            Bantu input menu dagangan atas nama ibu-ibu tetangga via WA
           </p>
         </div>
 

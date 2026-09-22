@@ -27,9 +27,9 @@ export default function HomePage() {
 
   const banners = [
     {
-      badge: "Dapur Komplek Griya Indah",
+      badge: "Dapur Tetangga",
       title: "Jajan dari Tetangga! 🛍️",
-      desc: "Segar, lezat, & higienis langsung dari dapur ibu-ibu Perumahan Griya Indah Asri.",
+      desc: "Segar, lezat, & higienis langsung dari kreasi dapur tetangga kita.",
       footer: "Bebas Ongkir Antar Blok",
       bgClass: "from-emerald-700 via-primary to-emerald-900",
     },
@@ -156,7 +156,7 @@ export default function HomePage() {
               Gotong Royong Ekonomi Warga
             </h4>
             <p className="text-[11px] text-slate-600 mt-0.5 leading-snug">
-              Beli jajanan dari tetangga, pererat silaturahmi perumahan kita!
+              Beli jajanan dari tetangga, pererat silaturahmi & dukung kreasi rumahan!
             </p>
           </div>
         </div>
@@ -167,7 +167,7 @@ export default function HomePage() {
         <div className="flex items-center justify-between mb-3">
           <div className="flex items-center gap-1.5">
             <Store className="w-4 h-4 text-primary" />
-            <h3 className="font-bold text-slate-900 text-sm">Penjual di Perumahan</h3>
+            <h3 className="font-bold text-slate-900 text-sm">Penjual Dapur Tetangga</h3>
           </div>
           <Link href="/toko" className="text-xs text-primary font-bold hover:underline">
             Semua Toko
@@ -232,7 +232,7 @@ export default function HomePage() {
         {/* Discrete Seller Entry & Community Footer */}
         <div className="mt-10 pt-6 border-t border-slate-200/60 flex flex-col items-center text-center">
           <p className="text-xs text-slate-500 mb-2">
-            Punya usaha masakan atau produk rumahan di komplek?
+            Punya usaha masakan atau kreasi rumahan?
           </p>
           <Link
             href="/seller/login"
@@ -242,7 +242,7 @@ export default function HomePage() {
             <ArrowRight className="w-3.5 h-3.5" />
           </Link>
           <span className="text-[10px] text-slate-400 mt-5">
-            © 2026 JajanKuy · Marketplace Mini Perumahan Griya Indah Asri
+            © 2026 JajanKuy · Jajan dari Tetangga, Mudah & Cepat
           </span>
         </div>
       </div>

@@ -74,6 +74,6 @@ export function generateAdminContactWhatsAppUrl(
   topic: string = "pendaftaran penjual"
 ): string {
   const cleanPhone = cleanPhoneNumber(adminPhone);
-  const message = `Halo Admin JajanKuy, saya warga perumahan ingin bertanya mengenai ${topic} di JajanKuy. Mohon bantuannya ya! 🙏`;
+  const message = `Halo Admin JajanKuy, saya ingin bertanya mengenai ${topic} di JajanKuy. Mohon bantuannya ya! 🙏`;
   return `https://wa.me/${cleanPhone}?text=${encodeURIComponent(message)}`;
 }

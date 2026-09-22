@@ -31,7 +31,7 @@ export const useCartStore = create<CartState>((set, get) => ({
         store_name: "Toko Penjual",
         name: "Penjual",
         wa_number: "628123456789",
-        address: "Perumahan",
+        address: "Blok Warga",
         is_active: true,
       };
     }

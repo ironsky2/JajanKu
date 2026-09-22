@@ -101,7 +101,7 @@ export const useMarketStore = create<MarketState>((set, get) => ({
   loginAsAdmin: () => {
     const session: UserSession = {
       role: "admin",
-      email: "admin.rt05@jajankuy.local",
+      email: "admin@jajankuy.local",
     };
     set({ currentSession: session });
     saveToStorage(get());

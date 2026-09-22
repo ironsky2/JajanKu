@@ -180,7 +180,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     unit: "pcs",
     stock: 12,
     photo_url: "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&auto=format&fit=crop&q=80",
-    description: "Tote bag rajut benang katun tebal dan kuat, ramah lingkungan untuk ganti kantong plastik saat belanja di komplek.",
+    description: "Tote bag rajut benang katun tebal dan kuat, ramah lingkungan untuk ganti kantong plastik saat belanja sehari-hari.",
     is_active: true,
   },
   {

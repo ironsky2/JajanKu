@@ -88,7 +88,7 @@ export default function SellerDashboardPage() {
             Halo, {currentSeller.name}!
           </h2>
           <p className="text-xs text-white/80 mt-1">
-            {currentSeller.address} · Warga Perumahan Griya Indah Asri
+            {currentSeller.address} · Dapur Tetangga
           </p>
         </div>
       </div>

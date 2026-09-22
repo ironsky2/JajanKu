@@ -42,7 +42,7 @@ export default function CartPage() {
           Keranjang Masih Kosong
         </h2>
         <p className="text-xs text-slate-500 max-w-xs leading-relaxed mb-6">
-          Yuk jelajahi aneka masakan lezat, kue basah, dan sembako segar dari tetangga perumahan kita!
+          Yuk jelajahi aneka masakan lezat, kue basah, dan sembako segar dari kreasi tetangga kita!
         </p>
         <Link
           href="/produk"

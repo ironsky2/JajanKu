@@ -3,9 +3,19 @@ import "./globals.css";
 import { StoreInitializer } from "@/components/providers/StoreInitializer";
 
 export const metadata: Metadata = {
-  title: "JajanKuy - Marketplace Mini Perumahan",
-  description: "Jajan dari Tetangga, Mudah & Cepat! Pasar Ibu Perumahan Griya Indah Asri",
+  title: "JajanKuy - Dari Dapur Tetangga, Mudah & Cepat!",
+  description: "Dapur Tetangga & Kreasi Rumahan Warga Sekitar. Pesan langsung via WhatsApp tanpa ribet.",
   manifest: "/manifest.json",
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      noimageindex: true,
+    },
+  },
   icons: {
     icon: "/logo.svg",
     apple: "/logo.svg",

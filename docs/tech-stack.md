@@ -4,7 +4,7 @@
 **Tanggal:** 23 September 2026
 **Status:** Final
 
-> Dokumen ini adalah lampiran teknis dari [PRD JajanKuy](./PRD_PWA_Pasar_Ibu_Perumahan.md).
+> Dokumen ini adalah lampiran teknis dari [PRD JajanKuy](./prd.md).
 
 ---
 
