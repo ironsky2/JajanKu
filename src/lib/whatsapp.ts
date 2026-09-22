@@ -70,7 +70,7 @@ Apakah produk ini masih tersedia? Terima kasih! 🙏`;
 }
 
 export function generateAdminContactWhatsAppUrl(
-  adminPhone: string = "6281234567890",
+  adminPhone: string = "6281371087296",
   topic: string = "pendaftaran penjual"
 ): string {
   const cleanPhone = cleanPhoneNumber(adminPhone);

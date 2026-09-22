@@ -49,7 +49,7 @@ export default function SellerLoginPage() {
     }
   };
 
-  const adminWaUrl = generateAdminContactWhatsAppUrl("6281234567890", "pendaftaran akun penjual baru di JajanKuy");
+  const adminWaUrl = generateAdminContactWhatsAppUrl("6281371087296", "pendaftaran akun penjual baru di JajanKuy");
 
   return (
     <div className="min-h-screen p-6 flex flex-col justify-center max-w-sm mx-auto">
@@ -163,7 +163,7 @@ export default function SellerLoginPage() {
       {/* Admin Help Footer */}
       <div className="mt-6 text-center">
         <p className="text-xs text-slate-600 mb-2">
-          Belum punya akun penjual? Hubungi admin RT untuk mendaftarkan toko Anda secara gratis.
+          Belum punya akun penjual? Hubungi admin untuk mendaftarkan toko Anda secara gratis.
         </p>
         <a
           href={adminWaUrl}
