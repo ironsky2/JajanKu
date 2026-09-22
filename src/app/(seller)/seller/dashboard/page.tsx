@@ -61,12 +61,21 @@ export default function SellerDashboardPage() {
           </div>
         </div>
 
-        <button
-          onClick={() => setShowTour(true)}
-          className="px-2.5 py-1.5 rounded-xl bg-emerald-50 text-primary-dark font-bold text-xs flex items-center gap-1 hover:bg-emerald-100 transition-colors"
-        >
-          <HelpCircle className="w-3.5 h-3.5" /> Panduan
-        </button>
+        <div className="flex items-center gap-1.5">
+          <Link
+            href="/"
+            className="px-2.5 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs flex items-center gap-1 transition-colors"
+          >
+            <Store className="w-3.5 h-3.5 text-primary" />
+            <span>Pasar</span>
+          </Link>
+          <button
+            onClick={() => setShowTour(true)}
+            className="px-2.5 py-1.5 rounded-xl bg-emerald-50 text-primary-dark font-bold text-xs flex items-center gap-1 hover:bg-emerald-100 transition-colors"
+          >
+            <HelpCircle className="w-3.5 h-3.5" /> Panduan
+          </button>
+        </div>
       </div>
 
       {/* Sapaan Personal */}

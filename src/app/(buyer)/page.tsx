@@ -228,6 +228,23 @@ export default function HomePage() {
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
+
+        {/* Discrete Seller Entry & Community Footer */}
+        <div className="mt-10 pt-6 border-t border-slate-200/60 flex flex-col items-center text-center">
+          <p className="text-xs text-slate-500 mb-2">
+            Punya usaha masakan atau produk rumahan di komplek?
+          </p>
+          <Link
+            href="/seller/login"
+            className="text-xs font-bold text-slate-700 hover:text-primary px-4 py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 active:scale-95 transition-all inline-flex items-center gap-1.5"
+          >
+            <span>👩‍🍳 Masuk ke Area Penjual</span>
+            <ArrowRight className="w-3.5 h-3.5" />
+          </Link>
+          <span className="text-[10px] text-slate-400 mt-5">
+            © 2026 JajanKuy · Marketplace Mini Perumahan Griya Indah Asri
+          </span>
+        </div>
       </div>
     </div>
   );

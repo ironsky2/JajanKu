@@ -30,9 +30,18 @@ export default function AdminDashboardPage() {
           </div>
         </div>
 
-        <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400">
-          Admin Mode
-        </span>
+        <div className="flex items-center gap-2">
+          <Link
+            href="/"
+            className="px-2.5 py-1 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold text-xs flex items-center gap-1 transition-colors border border-slate-700"
+          >
+            <Store className="w-3.5 h-3.5 text-emerald-400" />
+            <span>Ke Pasar</span>
+          </Link>
+          <span className="text-[10px] font-bold px-2 py-1 rounded-xl bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">
+            Admin
+          </span>
+        </div>
       </div>
 
       {/* Metrics Grid */}

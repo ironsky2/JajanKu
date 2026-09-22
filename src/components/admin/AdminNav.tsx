@@ -32,17 +32,11 @@ export function AdminNav() {
       icon: ShoppingBag,
       isActive: pathname === "/admin/produk",
     },
-    {
-      label: "Ke Pasar",
-      href: "/",
-      icon: Store,
-      isActive: false,
-    },
   ];
 
   return (
     <nav className="fixed bottom-0 left-0 right-0 z-40 bg-slate-900 text-white border-t border-slate-800 shadow-sticky pb-safe">
-      <div className="max-w-[640px] mx-auto h-16 px-2 grid grid-cols-5 items-center">
+      <div className="max-w-[640px] mx-auto h-16 px-4 grid grid-cols-4 items-center">
         {navItems.map((item) => {
           const Icon = item.icon;
           const active = item.isActive;

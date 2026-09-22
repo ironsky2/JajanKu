@@ -26,17 +26,11 @@ export function SellerNav() {
       icon: User,
       isActive: pathname === "/seller/profil",
     },
-    {
-      label: "Ke Pembeli",
-      href: "/",
-      icon: Store,
-      isActive: false,
-    },
   ];
 
   return (
     <nav className="fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-lg border-t border-slate-200/80 shadow-sticky pb-safe">
-      <div className="max-w-[640px] mx-auto h-16 px-4 grid grid-cols-4 items-center">
+      <div className="max-w-[640px] mx-auto h-16 px-6 grid grid-cols-3 items-center">
         {navItems.map((item) => {
           const Icon = item.icon;
           const active = item.isActive;
